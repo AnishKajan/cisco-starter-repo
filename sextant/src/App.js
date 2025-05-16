@@ -2,16 +2,17 @@ import React from 'react';
 import './App.css';
 import Banner from './Banner';
 import Exhibit from './exhibit';
+import Latency from './Latency';
 
 function App() {
   return (
     <div className="App">
       <Banner />
       <Exhibit heading="Public IP Address">
-        <IpAddress version="ipv4" />
+        <p>Placeholder for IP address</p>
       </Exhibit>
       <Exhibit heading="Latency Metrics">
-        <IpAddress version="ipv6" />
+        <Latency />
       </Exhibit>
     </div>
   );
