@@ -8,10 +8,10 @@ function App() {
     <div className="App">
       <Banner />
       <Exhibit heading="Public IP Address">
-        <p>Placeholder for IP address</p>
+        <IpAddress version="ipv4" />
       </Exhibit>
       <Exhibit heading="Latency Metrics">
-        <p>Placeholder for latency</p>
+        <IpAddress version="ipv6" />
       </Exhibit>
     </div>
   );
